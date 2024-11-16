@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* About Page Specific CSS */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f5f5f5; /* Light grey background for About page */
+            overflow-x: hidden; /* Prevent horizontal scroll */
+        }
+
+        header {
+            background-color: #00796b;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            letter-spacing: 1px;
+            margin: 0;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        .back {
+            text-align: left;
+            margin-top: 20px;
+            animation: slideIn 1s ease-out;
+        }
+
+        .back a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            padding: 10px;
+            background-color: #004d40;
+            border-radius: 5px;
+            transition: background 0.3s ease;
+        }
+
+        .back a:hover {
+            background-color: #00332d;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        h2, h3 {
+            color: #00796b;
+            font-size: 2em;
+            text-align: center;
+            margin-bottom: 20px;
+            animation: bounce 1s infinite alternate;
+        }
+
+        p {
+            line-height: 1.6;
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+
+        .about-image {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        .team-member {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+
+        .team-member img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+
+        .team-member .member-info {
+            max-width: 600px;
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes slideIn {
+            from { transform: translateX(-100%); }
+            to { transform: translateX(0); }
+        }
+
+        @keyframes bounce {
+            0% { transform: translateY(0); }
+            100% { transform: translateY(-10px); }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>About Us</h1>
+    </header>
+    <main>
+        <div class="back">
+            <a href="index.html">Back to Home</a>
+        </div>
+        <section>
+            <h2>Welcome to Detailer-Stack</h2>
+            <p>At Detailer-Stack, our goal is to provide valuable insights and information about various technologies, companies, and environmental issues, all in one place. We help professionals, students, and enthusiasts access detailed data to stay informed and make better decisions.</p>
+            <img src="https://via.placeholder.com/800x400" alt="About Image" class="about-image">
+            <p>Our mission is to empower individuals and organizations by providing them with a comprehensive platform to access detailed information about websites, technologies, and environmental data. Whether you're a developer, cybersecurity expert, or just someone looking to learn more, Detailer-Stack is here for you.</p>
+        </section>
+
+        <!-- Our Vision Section -->
+        <section>
+            <h2>Our Vision</h2>
+            <p>Our vision is to become a leading platform for technology and environmental data, helping individuals and organizations make informed decisions with detailed, accurate, and up-to-date information. We aim to bridge the gap between technology and the real world by providing data that is easily accessible and usable for everyone.</p>
+        </section>
+
+        <!-- Why Choose Us Section -->
+        <section>
+            <h2>Why Choose Us?</h2>
+            <p>Detailer-Stack is unique because we provide a one-stop solution for data regarding companies, technologies, and environmental issues. Our platform is user-friendly and continuously updated with the latest information. Here’s why you should choose us:</p>
+            <ul>
+                <li>Comprehensive data on technologies and websites issues.</li>
+                <li>User-friendly interface that’s easy to navigate.</li>
+                <li>Real-time updates for accurate and current information.</li>
+                <li>Valuable insights for developers, security experts.</li>
+            </ul>
+        </section>
+
+       
